@@ -1,16 +1,17 @@
-# simple_form
+<h1 align="center">Simple Form</h1>
 
-A new Flutter project.
+![logo](https://github.com/athi5622/form_sim/blob/main/x1.png)
 
-## Getting Started
+🛠️ Code Explanation
 
-This project is a starting point for a Flutter application.
+main.dart: This file serves as the entry point of the application. It sets up the ChangeNotifierProvider with the FormData class as the data source.
 
-A few resources to get you started if this is your first Flutter project:
+MyApp: The main Flutter application widget. It configures the MaterialApp and sets the HomeScreen as the initial screen.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+FormData Class: This class represents the form data model. It extends ChangeNotifier, which allows it to notify listeners when the data changes. It includes properties for name, email, and validation status.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![logo](https://github.com/athi5622/form_sim/blob/main/x2.png)
+
+🚀 Running the Application
+
+Run the application on your device or simulator. You should see the form interface where you can input your name and email address. The form validates the inputs and updates the UI accordingly.
